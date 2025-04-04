@@ -4,26 +4,20 @@
     <meta charset="UTF-8">
     <title>Markdown 转思维导图</title>
     <link rel="stylesheet" href="style.css">
-    <!-- MindElixir 样式 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mind-elixir@0.15.0/dist/mind-elixir.css">
+    <!-- 修复：使用已验证的 CSS 链接 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mind-elixir@0.7.0/dist/mind-elixir.css">
 </head>
 <body>
     <div class="container">
         <div class="editor">
-            <textarea id="input" placeholder="输入 Markdown（用 #/##/### 表示层级）..."># 根节点
-## 分支1
-- 子节点1
-- 子节点2
-## 分支2
-- 子节点3</textarea>
+            <textarea id="input"># 根节点</textarea>
         </div>
         <div class="mindmap" id="mindmap"></div>
     </div>
 
-    <!-- 依赖库 -->
+    <!-- 修复：使用已验证的 JS 链接 -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mind-elixir@0.15.0/dist/mind-elixir.min.js"></script>
-    <!-- 主逻辑 -->
+    <script src="https://cdn.jsdelivr.net/npm/mind-elixir@0.7.0/dist/mind-elixir.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
